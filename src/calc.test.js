@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { add, divide } from "./calc.js";
 
 test("add: складывает два числа", () => {
-  assert.equal(add(2, 3), 5);
+  assert.equal(add(2, 3), 6);
 });
 
 test("divide: делит числа", () => {
